@@ -78,11 +78,11 @@ const clearPhotoFileInput = () => {
 <template>
     <FormSection @submitted="updateProfileInformation">
         <template #title>
-            Profile Information
+            <h2 class="text-white">Profile Information</h2>
         </template>
 
         <template #description>
-            Update your account's profile information and email address.
+            <p class="text-gray-300">Update your account's profile information and email address.</p>
         </template>
 
         <template #form>
