@@ -39,7 +39,6 @@
                             <option value="media">media</option>
                             <option value="baja">baja</option>
                         </select>
-                        <!-- <input type="number" v-model="form.priority" class="w-100"> -->
                     </div>
                     <div class="col-10 d-flex flex-column">
                         <label for="">Status</label>
@@ -48,7 +47,6 @@
                             <option value="En proceso">En proceso</option>
                             <option value="Finalizada">Finalizada</option>
                         </select>
-                        <!-- <input type="number" v-model="form.status" class="w-100"> -->
                     </div>
                     <button class="btn bg-dark text-white col-3" type="submit">Crear</button>
                 </div>

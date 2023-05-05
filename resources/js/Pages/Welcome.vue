@@ -23,10 +23,10 @@ defineProps({
             </template>
         </div>
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="flex justify-center">
+            <div class="d-flex align-center justify-center" >
                 <img src="https://res.cloudinary.com/daqs7crna/image/upload/v1683030813/2_jhgarc.png" alt="">
+                <p class="w-50 text-white m-auto">Únete a nuestra comunidad de usuarios satisfechos y comienza a administrar tus tareas de manera más efectiva con Chronological Task Manager.</p>
             </div>
-
            
         </div>
     </div>

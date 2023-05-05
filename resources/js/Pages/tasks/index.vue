@@ -1,20 +1,17 @@
 <script setup>
     import AppLayout from "@/Layouts/AppLayout.vue";
 
+ 
     defineProps({
         tasks: Array,
     });
+  
+
+
 </script>
 
 <template>
     <AppLayout title="Tasks">
-        <!-- <template #header>
-          
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Tareas
-            </h2>
-      
-        </template> -->
         <div class="container-fluid text-center mt-4">
             <a href="./tasks/create" class="btn bg-gray-200 text-dark hover:bg-gray-400 mb-4 w-100">Crear Tarea</a>
             <table class="table table-white table-hover bg-gray-500">
